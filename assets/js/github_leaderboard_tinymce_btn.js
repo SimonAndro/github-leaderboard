@@ -2,13 +2,13 @@
    tinymce.create('tinymce.plugins.github_leaderboard', {
       init : function(ed, url) {
          ed.addButton('github_leaderboard', {
-            title : 'Insert Poll',
+            title : 'Insert leaderboard',
             image : url+'/ghleaderboard.png',
             onclick : function() {
-               var poll_id = prompt("Enter Poll ID", "");
+               var leaderboard_id = prompt("Enter leaderboard ID", "");
 
-                  if (poll_id != null && poll_id != ''){
-                     ed.execCommand('mceInsertContent', false, '[github_leaderboard id="'+poll_id+'"][/github_leaderboard]');
+                  if (leaderboard_id != null && leaderboard_id != ''){
+                     ed.execCommand('mceInsertContent', false, '[github_leaderboard id="'+leaderboard_id+'"][/github_leaderboard]');
                   }else{
                      ed.execCommand('mceInsertContent', false, '[github_leaderboard id="1"][/github_leaderboard]');
                }
@@ -23,7 +23,7 @@
             longname : "github_leaderboard WP VOTING",
             author : 'InfoTheme',
             authorurl : 'http://www.infotheme.in',
-            infourl : 'http://infotheme.in/products/plugins/epoll-wp-voting-system/',
+            infourl : 'http://infotheme.in/products/plugins/ghleaderboard-wp-voting-system/',
             version : "2.0"
          };
       }

@@ -261,7 +261,7 @@ function github_leaderboard_save_options($post_id)
         update_post_meta($post_id, 'github_leaderboard_style', $github_leaderboard_style);
     }
 
-    //Updating Poll Container Primary Color
+    //Updating leaderboard Container Primary Color
     if (isset($_POST['github_leaderboard_container_color_primary'])) {
         $github_leaderboard_container_color_primary = sanitize_text_field($_POST['github_leaderboard_container_color_primary']);
         update_post_meta($post_id, 'github_leaderboard_container_color_primary', $github_leaderboard_container_color_primary);

@@ -101,7 +101,7 @@ position: absolute;
          padding: 0px 20px 10px;
     color: #fff;
 }
-.it_adm_ico_button_epoll{
+.it_adm_ico_button_ghleaderboard{
         margin-top: 3px;
 }
 .it_edb_input_container label{
@@ -228,7 +228,7 @@ position: absolute;
     max-width: 300px;
     text-decoration: none;
  }
- .github_leaderboard_voting_confirmation_poll_title{
+ .github_leaderboard_voting_confirmation_leaderboard_title{
     margin: 0;
     text-align: center;
     font-size: 16px;
