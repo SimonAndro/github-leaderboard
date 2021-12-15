@@ -7,7 +7,7 @@ Wordpress Plugin to show github user contributions rankings
 ###  Description
 **Github Leaderboard / WP Github Leaderboard**  is a plugin to add github contributions Leaderboard feature to any wordpress post or page via a shortcode
 
-[**Github Leaderboard DEMO**](https://u-byte.cn/plugins/github-leaderboard/v1/demo/)
+[**Github Leaderboard DEMO**](https://uestc.cl.2times180.com/apps/hellopress/index.php/2021/12/15/github-leaderboard-demo/)
 
 This plugin allows you to set the display style and also customize colors.
 This plugin also provides you with a great user experience using it's mobile friendly layout. You can easily add this github leaderboard anywhere just by inserting a shortcode any where on your site.
