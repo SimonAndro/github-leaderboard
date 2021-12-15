@@ -18,7 +18,7 @@ while ( have_posts() ) : the_post();
 			?>
 
 <div class="github_leaderboard_container"
-	<?php if($github_leaderboard_container_color_primary){echo "style='background: -webkit-linear-gradient(40deg,#eee, $github_leaderboard_container_color_primary; )!important;
+	<?php if($github_leaderboard_container_color_primary){echo "style='background: -webkit-linear-gradient(40deg,#eee, $github_leaderboard_container_color_primary !important;
 	background: -o-linear-gradient(40deg,#eee,$github_leaderboard_container_color_primary !important;
 	background: linear-gradient(40deg,#eee,$github_leaderboard_container_color_primary !important;'";}?>>
 	<h1 class="github_leaderboard_title">
