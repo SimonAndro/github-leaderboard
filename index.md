@@ -41,7 +41,7 @@ This plugin also provides you with a great user experience using it's mobile fri
 
 3. Access to all UI features, customize User Interface as per your choice.
 3. Allow specifying period of contributions ie  month or year 
-3. The leaderboard updates in realtime as the use contributions change
+3. The leaderboard updates in realtime as the user contributions change
 3. Easy to place shortcode any where with much more options now 
 
 ```
@@ -55,7 +55,7 @@ This plugin also provides you with a great user experience using it's mobile fri
 1. Unzip the downloaded plugin and upload the folder "github-leaderboard" to the "/wp-content/plugins/" directory.
 1. Go to the plugin menu in WordPress and activate the plugin.
 1. Go to the left hand side of admin menu and click on "ghLeaderboard" and click to Add New.
-1. In title section add a custome title for the leaderboard.
+1. In title section add a custom title for the leaderboard.
 1. Click to "Add User" button and under "Github Username" type in the username of the the github account,  you can add other users in the similar way.
 1. You can change leaderboard design into list and grid by "leaderboard Style" -> Grid/List
 
