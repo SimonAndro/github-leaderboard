@@ -130,26 +130,26 @@ function github_leaderboard_metabox_forms($post)
 					<td style="text-align: center;">
 						<input type="radio" name="github_leaderboard_card_style" id="github_leaderboard_card_style"
 							value="orange" checked /><br>
-						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/peach.png"><br>
-						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/peach-bar.png">
+						<img src="<?php echo plugins_url('/../assets/imgs/buttons/peach.png', __FILE__); ?>"><br>
+						<img src="<?php echo plugins_url('/../assets/imgs/buttons/peach-bar.pn', __FILE__); ?>g">
 					</td>
 					<td style="text-align: center;">
 						<input type="radio" name="github_leaderboard_card_style" id="github_leaderboard_card_style"
 							value="orange" disabled /><br>
-						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/purple.png"><br>
-						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/purple-bar.png">
+						<img src="<?php echo plugins_url('/../assets/imgs/buttons/purple.png', __FILE__); ?>"><br>
+						<img src="<?php echo plugins_url('/../assets/imgs/buttons/purple-bar.png', __FILE__); ?>">
 					</td>
 					<td style="text-align: center;">
 						<input type="radio" name="github_leaderboard_card_style" id="github_leaderboard_card_style"
 							value="orange" disabled /><br>
-						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/aqua.png"><br>
-						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/aqua-bar.png">
+						<img src="<?php echo plugins_url('/../assets/imgs/buttons/aqua.png', __FILE__); ?>"><br>
+						<img src="<?php echo plugins_url('/../assets/imgs/buttons/aqua-bar.png', __FILE__); ?>">
 					</td>
 					<td style="text-align: center;">
 						<input type="radio" name="github_leaderboard_card_style" id="github_leaderboard_card_style"
 							value="orange" disabled /><br>
-						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/blue.png"><br>
-						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/blue-bar.png">
+						<img src="<?php echo plugins_url('/../assets/imgs/buttons/blue.png', __FILE__); ?>"><br>
+						<img src="<?php echo plugins_url('/../assets/imgs/buttons/blue-bar.png', __FILE__); ?>">
 					</td>
 				</tr>
 
