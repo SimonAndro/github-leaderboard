@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to github leaderboard
 
 You can use the [editor on GitHub](https://github.com/SimonAndro/github-contributions-ranking-wordpress-plugin/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
