@@ -1,6 +1,6 @@
 <?php
 
-require_once  dirname(__FILE__).'./helper.php'; //require helper for this file
+require_once  dirname(__FILE__).'/helper.php'; //require helper for this file
 
 if (!isset($_SESSION)) session_start();
 get_header();

@@ -1,6 +1,6 @@
 <?php
 
-require_once  dirname(__FILE__).'./helper.php'; //require helper for this file
+require_once  dirname(__FILE__).'/helper.php'; //require helper for this file
 
 add_shortcode('github_leaderboard','github_leaderboard_add_shortcode');
 function github_leaderboard_add_shortcode($atts, $content = null){
