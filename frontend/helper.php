@@ -38,8 +38,6 @@ function fetch_rank_contributions($github_leaderboard_account_names)
 /**
  * Makes parallel curl requests at once
  */
-    $nodes = $urls;
-
     if (!function_exists('multiple_threads_request')) {
 
         function multiple_threads_request($nodes)
@@ -53,8 +51,8 @@ function fetch_rank_contributions($github_leaderboard_account_names)
                 curl_setopt($curl_array[$i], CURLOPT_SSL_VERIFYHOST, false);
                 curl_setopt($curl_array[$i], CURLOPT_SSL_VERIFYPEER, false);
                 curl_setopt($curl_array[$i], CURLOPT_FOLLOWLOCATION, true);
-                curl_setopt($curl_array[$i], CURLOPT_COOKIEFILE, "./tmp/cookie.txt");
-                curl_setopt($curl_array[$i], CURLOPT_COOKIEJAR, "./tmp/cookie.txt");
+                curl_setopt($curl_array[$i], CURLOPT_COOKIEFILE, "/tmp/cookie.txt");
+                curl_setopt($curl_array[$i], CURLOPT_COOKIEJAR, "/tmp/cookie.txt");
                 curl_multi_add_handle($mh, $curl_array[$i]);
             }
             $running = null;
@@ -106,7 +104,7 @@ function fetch_rank_contributions($github_leaderboard_account_names)
     $total_contributions = array_column($gitHubUsers, 'totalContributions');
     array_multisort($total_contributions, SORT_DESC, $gitHubUsers);
     
-    return $total_contributions;
+    return $gitHubUsers;
 }
 
 function includeWithVariables($filePath, $variables = array(), $print = true)
