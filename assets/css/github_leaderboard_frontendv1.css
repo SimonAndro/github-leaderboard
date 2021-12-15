@@ -250,9 +250,9 @@ margin: 15px;
     margin: 0;
   }
   .github_leaderboard_widget .github_leaderboard_survey-stage .github_leaderboard_stage {
-    width: 52px !important;
+        width: 32px !important;
     float: right;
-    height: 52px !important;
+    height: auto !important;
     top: -26px !important;
     right: -22px !important;
     line-height: 28px !important;
@@ -310,9 +310,9 @@ margin: 15px;
     font-size: 14px !important;
   }
   .github_leaderboard_survey-stage .github_leaderboard_stage {
-        width: 52px !important;
+        width: 32px !important;
     float: right;
-    height: 52px !important;
+    height: auto !important;
     top: -26px !important;
     right: -22px !important;
     line-height: 28px !important;
@@ -360,12 +360,13 @@ margin: 15px;
     margin: 0;
   }
   .github_leaderboard_survey-stage .github_leaderboard_stage {
-    width: 52px !important;
+    width: fit-content !important;
     float: right;
-    height: 52px !important;
+    height: auto !important;
     top: -2px !important;
     right: -10px !important;
     line-height: 28px !important;
+    padding: 5px;
   }
 }
 .github_leaderboard_list .github_leaderboard_survey-country,
@@ -400,9 +401,9 @@ margin: 15px;
 .github_leaderboard_survey-stage .github_leaderboard_stage {
     display: inline-block;
     vertical-align: middle;
-    width: 52px;
+    width: 48px;
     float: right;
-    height: 52px;
+    height: auto;
     top: -30px;
     right: -26px;
     position: relative;
