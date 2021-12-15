@@ -40,7 +40,7 @@ License: GPLv2 or Later
 
 Plugin to show github contributions Leaderboard
 
-# == Description ==
+### == Description ==
 **Github Leaderboard / WP Github Leaderboard**  is a plugin to add github contributions Leaderboard feature to any wordpress post or page via a shortcode
 
 [**Github Leaderboard DEMO**](https://u-byte.cn/plugins/github-leaderboard/v1/demo/)
@@ -79,7 +79,7 @@ This plugin also provides best user experience with it's mobile friendly layout.
 3. removing back link to our website on the bottom of each leaderboad
 3. Change leaderboard's background ui color
 
-# == Installation ==
+### == Installation ==
 
 1. Unzip the downloaded plugin and upload the folder "github-leaderboard" to the "/wp-content/plugins/" directory.
 1. Go to the plugin menu in WordPress and activate the plugin.
@@ -89,14 +89,14 @@ This plugin also provides best user experience with it's mobile friendly layout.
 1. You can change leaderboard design into list and grid by "leaderboard Style" -> Grid/List
 
 
-# == Frequently Asked Questions ==
+### == Frequently Asked Questions ==
 
 Please ask your question to [ASK GITHUB LEADERBOARD PLUGIN QUESTION'S HERE](https://u-byte.com/plugins/faq) for any bug you might have found, or any suggestion you like to add.
 
 == Upgrade Notice ==
 FOR MORE FEAURES PLEASE CONTACT WITH US [**u-byte SUPPORT TEAM**](https://u-byte.com/plugins/faq)
 
-== Change Log ==
+### == Change Log ==
 
 = 1.0 =
 * Initial public release. 
