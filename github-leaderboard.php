@@ -157,9 +157,7 @@ if (!function_exists('github_leaderboard_enqueue_script')) {
     add_action('wp_enqueue_scripts', 'github_leaderboard_enqueue_script');
     function github_leaderboard_enqueue_script()
     {
-        wp_enqueue_script('github_leaderboard_ajax', plugins_url('/assets/js/github_leaderboard_votev1.js', __FILE__), array('jquery'));
-        wp_localize_script('github_leaderboard_ajax', 'github_leaderboard_ajax_obj', array('ajax_url' => admin_url('admin-ajax.php')));
-        wp_enqueue_script('github_leaderboard_script', plugins_url('/assets/js/github_leaderboard_frontendv1.js', __FILE__), false);
+       wp_enqueue_script('github_leaderboard_script', plugins_url('/assets/js/github_leaderboard_frontendv1.js', __FILE__), false);
         wp_enqueue_script('github_leaderboard_script_3p', plugins_url('/assets/js/4.6.0.bootstrap.bundle.min.js', __FILE__), false);
     }
 }

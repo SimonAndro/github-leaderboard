@@ -2,9 +2,9 @@
 jQuery.noConflict();
 jQuery(document).ready(function($) {
 
-	jQuery('.github_leaderboard_sys_show_voter_table tr').each(function(){
-		var github_leaderboard_tbl = jQuery(this).find('.github_leaderboard_sys_show_voter');
-		jQuery(this).find('.github_leaderboard_sys_show_voter_btn').on('click',function(){
+	jQuery('.github_leaderboard_sys_show_user_table tr').each(function(){
+		var github_leaderboard_tbl = jQuery(this).find('.github_leaderboard_sys_show_user');
+		jQuery(this).find('.github_leaderboard_sys_show_user_btn').on('click',function(){
 			jQuery(github_leaderboard_tbl+' tr').each(function(){
 				jQuery(this).slideToggle();
 			});
