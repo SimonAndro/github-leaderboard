@@ -32,11 +32,7 @@ if ( $github_leaderboard_post_query->have_posts()) {
 			if(get_post_meta( get_the_id(), 'github_leaderboard_account', true )){
 				$github_leaderboard_account_names = get_post_meta( get_the_id(), 'github_leaderboard_account', true );
 			}
-			$github_leaderboard_account_imgs = array();
-			$github_leaderboard_account_imgs = get_post_meta( get_the_id(), 'github_leaderboard_account_img', true );
-			$github_leaderboard_account_cover_img = array();
 
-			$github_leaderboard_account_cover_img = get_post_meta( get_the_id(), 'github_leaderboard_account_cover_img', true );
 			$github_leaderboard_status = get_post_meta( get_the_id(), 'github_leaderboard_status', true );
 			$github_leaderboard_account_id = get_post_meta( get_the_id(), 'github_leaderboard_account_id', true );
 			if($a['type']){
@@ -47,9 +43,9 @@ if ( $github_leaderboard_post_query->have_posts()) {
 		
 			$github_leaderboard_container_color_primary = get_post_meta( get_the_id(), 'github_leaderboard_container_color_primary', true );?>
 <div class="github_leaderboard_container"
-	<?php if($github_leaderboard_container_color_primary){echo ' style="background: -webkit-linear-gradient(40deg,#eee,<?php echo $github_leaderboard_container_color_primary;?>)!important;
-	background: -o-linear-gradient(40deg,#eee,<?php echo $github_leaderboard_container_color_primary;?>)!important;
-	background: linear-gradient(40deg,#eee,<?php echo $github_leaderboard_container_color_primary;?>)!important;"';}?>>
+	<?php if($github_leaderboard_container_color_primary){echo "style='background: -webkit-linear-gradient(40deg,#eee, $github_leaderboard_container_color_primary; )!important;
+	background: -o-linear-gradient(40deg,#eee,$github_leaderboard_container_color_primary !important;
+	background: linear-gradient(40deg,#eee,$github_leaderboard_container_color_primary !important;'";}?>>
 	<h1 class="github_leaderboard_title">
 		<span class="github_leaderboard_title_exact"><?php the_title();?></span>
 		<span class="github_leaderboard_survey-stage">
