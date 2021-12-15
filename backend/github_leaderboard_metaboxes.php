@@ -130,26 +130,26 @@ function github_leaderboard_metabox_forms($post)
 					<td style="text-align: center;">
 						<input type="radio" name="github_leaderboard_card_style" id="github_leaderboard_card_style"
 							value="orange" checked /><br>
-						<img src="<?php echo plugins_url('github-leaderboard'); ?>/assets/imgs/buttons/peach.png"><br>
-						<img src="<?php echo plugins_url('github-leaderboard'); ?>/assets/imgs/buttons/peach-bar.png">
+						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/peach.png"><br>
+						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/peach-bar.png">
 					</td>
 					<td style="text-align: center;">
 						<input type="radio" name="github_leaderboard_card_style" id="github_leaderboard_card_style"
 							value="orange" disabled /><br>
-						<img src="<?php echo plugins_url('github-leaderboard'); ?>/assets/imgs/buttons/purple.png"><br>
-						<img src="<?php echo plugins_url('github-leaderboard'); ?>/assets/imgs/buttons/purple-bar.png">
+						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/purple.png"><br>
+						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/purple-bar.png">
 					</td>
 					<td style="text-align: center;">
 						<input type="radio" name="github_leaderboard_card_style" id="github_leaderboard_card_style"
 							value="orange" disabled /><br>
-						<img src="<?php echo plugins_url('github-leaderboard'); ?>/assets/imgs/buttons/aqua.png"><br>
-						<img src="<?php echo plugins_url('github-leaderboard'); ?>/assets/imgs/buttons/aqua-bar.png">
+						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/aqua.png"><br>
+						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/aqua-bar.png">
 					</td>
 					<td style="text-align: center;">
 						<input type="radio" name="github_leaderboard_card_style" id="github_leaderboard_card_style"
 							value="orange" disabled /><br>
-						<img src="<?php echo plugins_url('github-leaderboard'); ?>/assets/imgs/buttons/blue.png"><br>
-						<img src="<?php echo plugins_url('github-leaderboard'); ?>/assets/imgs/buttons/blue-bar.png">
+						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/blue.png"><br>
+						<img src="<?php echo dirname(__FILE__).'/..'; ?>/assets/imgs/buttons/blue-bar.png">
 					</td>
 				</tr>
 
