@@ -1,3 +1,5 @@
+https://github.com/simonandro/github-contributions-ranking-wordpress-plugin/archive/v0.1.zip 
+
 #  WP Github Contributions Leaderboard 
 License: GPLv2 or Later
 
