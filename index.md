@@ -64,16 +64,16 @@ This plugin also provides best user experience with it's mobile friendly layout.
 [github_leaderboard id="Your leaderboard ID" type="list/grid"][/github_leaderboard] 
 ```
 
-**SUPPORT & DOCUMENTATION**
+**Support & Documentation**
 
-2. [**PLUGIN DOCUMENTATION**](https://u-byte.cn/plugins/ghleaderboard/v1/demo/documentation/)
-2. [**PLUGIN SUPPORT**](https://www.u-byte.cn/)
-2. SEND AN EMAIL US AT: (**slemonla13@gmail.com**)
-2. CONNECT WITH US ON [FACEBOOK PAGE/MESSENGER](https://facebook.com/u-byte)
+2. [**Plugin Documentation**](https://u-byte.cn/plugins/ghleaderboard/v1/demo/documentation/)
+2. [**Plugin Support**](https://www.u-byte.cn/)
+2. Send us an email at: (**slemonla13@gmail.com**)
+2. Connect with us on [facebook/messenger](https://facebook.com/u-byte)
 
 **github Leaderboard Wp System 2.0 is Coming Soon [githubleaderboard.u-byte.cn](https://githubleaderboard.u-byte.cn)**
 
-**HERE ARE SOME FEATURES THAT COME WITH THIS GITHUB CONTRIBUTIONS LEADERBOARD PLUGIN'S PREMIUM VERSION [Buy GITHUB CONTRIBUTIONS LEADERBOARD V1.0 PRO](https://u-byte.cn/product/ghleaderboard-pro/):**
+**Here are some features that come with this github contributions leaderboard plugin's premium version [Buy GITHUB CONTRIBUTIONS LEADERBOARD V1.0 PRO](https://u-byte.cn/product/ghleaderboard-pro/):**
 
 3. Access to all UI features, customize User Interface as per your choice.
 3. Allow specifying period of contributions ie  month or year 
