@@ -59,7 +59,7 @@ This plugin also provides best user experience with it's mobile friendly layout.
 1. Awesome Advanced UI with multi varients of colors but currently all varients are available in Premium version, the free version has one color only
 1. Change the leaderboard background ui gradient color. (Only Primary Colour)
 1. Add leaderboard via widget in sidebar with both views list and grid.
-1. Easy to place shortcode now having more options **[github_leaderboard id="Your leaderboard ID" type="list/grid"][/github_leaderboard]**
+1. Easy to place shortcode now having more options **``` [github_leaderboard id="Your leaderboard ID" type="list/grid"][/github_leaderboard] ```**
 
 **SUPPORT & DOCUMENTATION**
 
