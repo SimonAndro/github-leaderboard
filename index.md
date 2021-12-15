@@ -1,46 +1,9 @@
-## Welcome to github leaderboard
-
-This is a wordpress plugin with github profiles ranking.
-
-### How to Use
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SimonAndro/github-contributions-ranking-wordpress-plugin/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with this wordpress plugin? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-
-# === WP Github Leaderboard  ===
+#  WP Github Leaderboard 
 License: GPLv2 or Later
 
-Plugin to show github contributions Leaderboard
+Wordpress Plugin to show github user contributions rankings
 
-### == Description ==
+###  Description
 **Github Leaderboard / WP Github Leaderboard**  is a plugin to add github contributions Leaderboard feature to any wordpress post or page via a shortcode
 
 [**Github Leaderboard DEMO**](https://u-byte.cn/plugins/github-leaderboard/v1/demo/)
@@ -48,7 +11,7 @@ Plugin to show github contributions Leaderboard
 This plugin allows you to set the display style and also customize colors.
 This plugin also provides best user experience with it's mobile friendly layout. You can easily add this github leaderboard anywhere just by adding a shortcode any where to your site.
 
-**HERE ARE SOME FEATURES THAT COME WITH THIS LEADERBOARD PLUGIN:**
+**Here are some features that come with this leaderboard plugin:**
 
 1. The plugin helps to place github contributions leaderboard in your website.
 1. You can place the github contributions leaderboard system to your blog posts, pages and everywhere.
@@ -60,6 +23,7 @@ This plugin also provides best user experience with it's mobile friendly layout.
 1. Change the leaderboard background ui gradient color. (Only Primary Colour)
 1. Add leaderboard via widget in sidebar with both views list and grid.
 1. Easy to place shortcode now having more options 
+
 ``` 
 [github_leaderboard id="Your leaderboard ID" type="list/grid"][/github_leaderboard] 
 ```
@@ -79,13 +43,14 @@ This plugin also provides best user experience with it's mobile friendly layout.
 3. Allow specifying period of contributions ie  month or year 
 3. The leaderboard updates in realtime as the use contributions change
 3. Easy to place shortcode any where with much more options now 
+
 ```
 [github_leaderboard id="Your leaderboard ID" type="list/grid"][/github_leaderboard]
 ```
 5. removing back link to our website on the bottom of each leaderboad
 6. Change leaderboard's background ui color
 
-### == Installation ==
+### Installation
 
 1. Unzip the downloaded plugin and upload the folder "github-leaderboard" to the "/wp-content/plugins/" directory.
 1. Go to the plugin menu in WordPress and activate the plugin.
@@ -95,7 +60,7 @@ This plugin also provides best user experience with it's mobile friendly layout.
 1. You can change leaderboard design into list and grid by "leaderboard Style" -> Grid/List
 
 
-### == Frequently Asked Questions ==
+### Frequently Asked Questions
 
 Please ask your question to [ASK GITHUB LEADERBOARD PLUGIN QUESTION'S HERE](https://u-byte.com/plugins/faq) for any bug you might have found, or any suggestion you like to add.
 
