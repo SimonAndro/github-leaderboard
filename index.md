@@ -66,7 +66,7 @@ This plugin also provides you with a great user experience using it's mobile fri
 Please ask your question to [ASK GITHUB LEADERBOARD PLUGIN QUESTION'S HERE](https://u-byte.com/plugins/faq) for any bug you might have found, or any suggestion you like to add.
 
 == Upgrade Notice ==
-FOR MORE FEAURES PLEASE CONTACT WITH US [**u-byte SUPPORT TEAM**](https://u-byte.com/plugins/faq)
+FOR MORE FEAURES PLEASE CONTACT WITH US [**U-BYTE SUPPORT TEAM**](https://u-byte.com/plugins/faq)
 
 ### == Change Log ==
 
