@@ -101,7 +101,7 @@ function github_leaderboard_metabox_forms($post)
 		<td><?php _e('Background Gradient:', 'github_leaderboard');?></td>
 		<td>
 			<div style="padding-bottom:5px;">Primary Color</div>
-			<input type="text" class="widefat it_epoll_color-field"
+			<input type="text" class="widefat github_leaderboard_color-field"
 				name="github_leaderboard_container_color_primary" value="<?php echo $github_leaderboard_container_color_primary; ?>" placeholder="Primary Color" />
 		</td>
 		<td>

@@ -281,22 +281,4 @@ if (!function_exists('github_leaderboard_number_shorten')) {
     }
 }
 
-if (!function_exists('github_leaderboard_check_for_unique_voting')) {
-
-    function github_leaderboard_check_for_unique_voting($poll_id, $option_id)
-    {
-
-        if (isset($_SESSION['github_leaderboard_session_' . $poll_id])) {
-            return true;
-        } else {
-            return false;
-        }
-
-        if (isset($_SESSION['github_leaderboard_session'])) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-}
 include_once 'backend/github_leaderboard_widget.php';
