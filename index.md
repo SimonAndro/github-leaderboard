@@ -1,4 +1,4 @@
-#  WP Github Leaderboard 
+#  WP Github Contributions Leaderboard 
 License: GPLv2 or Later
 
 Wordpress Plugin to show github user contributions rankings
@@ -9,20 +9,20 @@ Wordpress Plugin to show github user contributions rankings
 [**Github Leaderboard DEMO**](https://u-byte.cn/plugins/github-leaderboard/v1/demo/)
 
 This plugin allows you to set the display style and also customize colors.
-This plugin also provides best user experience with it's mobile friendly layout. You can easily add this github leaderboard anywhere just by adding a shortcode any where to your site.
+This plugin also provides you with a great user experience using it's mobile friendly layout. You can easily add this github leaderboard anywhere just by inserting a shortcode any where on your site.
 
 **Here are some features that come with this leaderboard plugin:**
 
-1. The plugin helps to place github contributions leaderboard in your website.
-1. You can place the github contributions leaderboard system to your blog posts, pages and everywhere.
-1. You can use shortcode to place the github contributions leaderboard system anywhere.
-1. Advance admin panel to create and edit the github contributions leaderboard.
+1. The plugin helps to place github contributions leaderboard on your website.
+1. You can place the github contributions leaderboard system on your blog posts, pages and everywhere.
+1. You can use a shortcode to place the github contributions leaderboard system anywhere.
+1. Advanced admin panel to create and edit the github contributions leaderboard.
 1. Button to add shortcode easily while adding blog posts.
 1. Switch the leaderboard system into grid style or list style anytime.
 1. Awesome Advanced UI with multi varients of colors but currently all varients are available in Premium version, the free version has one color only
 1. Change the leaderboard background ui gradient color. (Only Primary Colour)
 1. Add leaderboard via widget in sidebar with both views list and grid.
-1. Easy to place shortcode now having more options 
+1. Easy to place shortcode now with more options 
 
 ``` 
 [github_leaderboard id="Your leaderboard ID" type="list/grid"][/github_leaderboard] 
