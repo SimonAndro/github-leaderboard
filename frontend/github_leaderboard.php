@@ -66,7 +66,7 @@ if ( $github_leaderboard_post_query->have_posts()) {
                     $position=0;
                     foreach ($gitHubUsers as $user){
                         $position++;
-						includeWithVariables(dirname(__FILE__).'./card-template.php',["user"=>$user,"position"=>$position],true);
+						includeWithVariables(dirname(__FILE__).'/card-template.php',["user"=>$user,"position"=>$position],true);
 					}
 				}else{
 					if( current_user_can('author') || current_user_can('editor') || current_user_can('administrator') ){

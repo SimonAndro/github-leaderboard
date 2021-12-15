@@ -1,5 +1,5 @@
 <?php
-require_once  dirname(__FILE__).'./../includes/phpQuery/phpQuery.php'; //require php query
+require_once  dirname(__FILE__).'/../includes/phpQuery/phpQuery.php'; //require php query
 
 function fetch_rank_contributions($github_leaderboard_account_names)
 {
@@ -126,7 +126,7 @@ function includeWithVariables($filePath, $variables = array(), $print = true)
         $output = ob_get_clean();
     }
     if ($print) {
-        print $output;
+        echo $output;
     }
     return $output;
 
