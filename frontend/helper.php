@@ -102,7 +102,7 @@ function fetch_rank_contributions($github_leaderboard_account_names)
     }
 
     $total_contributions = array_column($gitHubUsers, 'totalContributions');
-    array_multisort($total_contributions, SORT_DESC, $gitHubUsers);
+    array_multisort($total_contributions, SORT_DESC, $gitHubUsers); // returns boolean after sorting
     
     return $gitHubUsers;
 }
